@@ -1,3 +1,4 @@
+/* Setting global styles for the body */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     padding: 20px;
@@ -6,6 +7,7 @@ body {
     transition: background-color 0.3s;
 }
 
+/* Styling all div elements */
 div {
     margin-bottom: 18px;
     padding: 10px 15px;
@@ -14,12 +16,14 @@ div {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling all paragraph elements */
 p {
     font-size: 15px;
     color: #2c3e50;
     margin: 0;
 }
 
+/* Styling all label elements */
 label {
     display: block;
     margin-bottom: 7px;
@@ -28,6 +32,8 @@ label {
     font-weight: 500;
 }
 
+
+/* Styling number input fields */
 input[type="number"] {
     width: 80%;
     padding: 7px 12px;
@@ -42,6 +48,8 @@ input[type="number"]:focus {
     outline: none;
 }
 
+
+/* Styling buttons */
 button {
     padding: 7px 16px;
     margin-right: 10px;
@@ -59,6 +67,8 @@ button:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
 }
 
+
+/* Styling select dropdowns */
 select {
     width: 100%;
     padding: 7px 12px;
@@ -73,6 +83,7 @@ select:focus {
     outline: none;
 }
 
+/* Styling images */
 img {
     max-width: 100%;
     display: block;

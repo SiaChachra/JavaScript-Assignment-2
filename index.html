@@ -1,34 +1,59 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declaration for HTML5 -->
 <html>
 
 <head>
-    <meta charset="utf-8" />
+    <!-- Meta information -->
+    <meta charset="utf-8" /> <!-- Specifies the character encoding for the document -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Makes the webpage responsive on various devices -->
+
     <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+    <!-- Title of the webpage that appears in the browser tab -->
+
+    <!-- Linking external JavaScript file with a defer attribute, ensuring it runs after the HTML is parsed -->
     <script src="./js/scripts.js" defer></script>
+
+    <!-- Linking external CSS file for styling the webpage -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <!-- Container for displaying the student ID -->
     <div>
         <p id="myStudentId"></p>
+        <!-- Paragraph element where the student ID will be displayed, accessible via its ID -->
     </div>
+
+    <!-- Container for inputting a custom number -->
     <div>
-        <label for="customNumber">Enter number from 1 to 100:</label>
+        <label for="customNumber">Enter number from 1 to 100:</label> <!-- Label for the number input field -->
         <input id="customNumber" type="number" placeholder="" />
+        <!-- Number input field where users can enter a number between 1 to 100 -->
     </div>
+
+    <!-- Container for color change buttons -->
     <div>
         <button class="custColor">Change custom color</button>
+        <!-- Button to change the background color based on the custom number -->
         <button class="randColor">Change random color</button>
+        <!-- Button to change the background color based on a random number -->
     </div>
+
+    <!-- Container for selecting an image -->
     <div>
-        <label for="imageSelect">Select Image</label>
+        <label for="imageSelect">Select Image</label> <!-- Label for the image dropdown select -->
+        <!-- Dropdown select for choosing an image -->
         <select id="imageSelect">
+            <!-- Default option for the dropdown -->
             <option value="">Please choose…</option>
         </select>
     </div>
+
+    <!-- Container for displaying the selected image -->
     <div>
-        <img id="images" src="" alt=""></img>
+        <!-- Image element where the selected image will be displayed, accessible via its ID -->
+        <img id="images" src="" alt="">
+        <!-- The alt attribute is empty; consider adding a description for accessibility -->
     </div>
 </body>
 
